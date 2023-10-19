@@ -99,7 +99,7 @@ async def download_model(model_name, models_path, username, password):
 # Use the function
 if __name__=='__main__':
     nest_asyncio.apply()
-    print("Please enter your Huggingface credentials. If the model doesn't need login, leave the blank")
+    print("Please enter your Huggingface credentials. If the model doesn't need login, leave them blank")
     username=input("Username:")
     password=getpass.getpass("Password:")
     model_name=input("Model name(e.g. bert-base-uncased):")
