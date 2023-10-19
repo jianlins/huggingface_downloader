@@ -1,0 +1,4 @@
+tdqm
+aiohttp
+beautifulsoup4
+nest_asyncio
